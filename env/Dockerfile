@@ -48,5 +48,6 @@ RUN pip install --no-cache-dir \
     pydeps \
     graphviz \
     shap \
+    optuna \
     umap
 
