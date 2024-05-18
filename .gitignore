@@ -1,8 +1,9 @@
-# Ignore everything in py3/root_jupyter except the .gitignore file
-/py3/root_jupyter/*
-!/py3/root_jupyter/.gitkeep
+# Ignore everything in env/root_jupyter except the .gitignore file
+/env/root_jupyter/*
+!/env/root_jupyter/.gitkeep
 
 # Ignore everything else in the project except specific files and directories
-/py3/root_jupyter/lab/
+/env/root_jupyter/lab/
 /workspace/*
+!/workspace/.gitkeep
 !.gitignore
